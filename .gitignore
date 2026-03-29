@@ -1,0 +1,27 @@
+# Dependency Directories
+/vendor/
+/node_modules/
+
+# User Uploads & Temporary Data
+/uploads/
+/sessions/
+/logs/*.log
+!/logs/.gitkeep
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE Specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sensitive Configuration
+# config/config.php
+# .env
+
+# Database backups or temporary files
+*.sql.gz
+*.sql.bak
